@@ -1,0 +1,162 @@
+@font-face {
+	font-family: "Lato";
+	src: url("../fonts/Lato-Regular.woff2") format("woff2"), url("../fonts/Lato-Regular.woff") format("woff");
+	font-display: swap;
+	font-weight: 400;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: "Lato";
+	src: url("../fonts/Lato-Bold.woff2") format("woff2"), url("../fonts/Lato-Bold.woff") format("woff");
+	font-display: swap;
+	font-weight: 700;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: "Lato";
+	src: url("../fonts/Lato-Black.woff2") format("woff2"), url("../fonts/Lato-Black.woff") format("woff");
+	font-display: swap;
+	font-weight: 900;
+	font-style: normal;
+}
+
+
+
+body {
+	font-family: "Lato"
+
+
+}
+
+[class*="__container"] {
+	max-width: 810px;
+	margin: 0 auto;
+}
+
+.content {}
+
+.content__container {}
+
+.content__title {
+	color: #1E212C;
+	font-weight: 900;
+	font-size: 46px;
+	line-height: 60px;
+	text-shadow: 1px 2px 2px rgb(7, 7, 6);
+	margin-bottom: 50px;
+}
+
+.content__image {
+	text-align: center;
+	margin-bottom: 60px;
+}
+
+.content__image img {
+	border-radius: 4px;
+	border: 1px solid black;
+	max-width: 100%;
+
+}
+
+.content__bold-text {
+	color: #1E212C;
+	font-weight: 700;
+	font-size: 20px;
+	line-height: 30px;
+	margin-bottom: 24px;
+}
+
+.content__text {
+	line-height: 26px;
+	margin-bottom: 48px;
+}
+
+.content__text p {
+	margin-bottom: 22px;
+
+}
+
+.content__text ul {
+	margin-bottom: 24px;
+}
+
+.content__text li {
+
+	padding-left: 32px;
+	margin-bottom: 4px;
+	background: url("../img/icons/vector.png") no-repeat 0 5px;
+}
+
+
+.content__bold-text2 {
+	color: #1E212C;
+	font-weight: 700;
+	font-size: 20px;
+	line-height: 30px;
+	padding-left: 58px;
+	margin-bottom: 48px;
+	background: url("../img/icons/braces.png") no-repeat;
+}
+
+/***000000********000000000********000000000******00000*****/
+/***000000********000000000********000000000******00000*****/
+/***000000********000000000********000000000******00000*****/
+
+.lesson {}
+
+.lesson__container {}
+
+.lesson__title {
+	font-weight: 900;
+	color: green;
+	font-size: 24px;
+}
+
+.lesson__name {
+	font-size: 20px;
+	font-style: italic;
+	color: blueviolet
+}
+
+.block {
+	border: 1.5px solid black;
+	margin-bottom: 20px;
+	height: 350px;
+	max-width: 550px;
+
+
+}
+
+.background-fixed {
+	background: url("../img/imagee.png") center no-repeat fixed;
+
+
+}
+
+.lesson__universal {
+	background: url("../img/imagee.png") no-repeat center fixed, url("../img/numbers.jpg");
+
+}
+
+
+.background-repeat {
+	background: url("../img/imagee.png");
+}
+
+.repeat-x {
+	background: url("../img/imagee.png") repeat-x;
+}
+
+.repeat-y {
+	background: url("../img/imagee.png") repeat-y;
+}
+
+
+
+.lesson__name2 {}
+
+.bottom-left {
+	background: url("../img/imagee.png") bottom left no-repeat;
+}
